@@ -1,2 +1,15 @@
 This is a simple Perl script to do automatic login in MyWire portal,
 a German Internet Provider.
+
+The script needs the WWW::Mechanize from Perl.
+
+-Instructions for Gentoo Linux:
+Install the dev-perl/WWW-Mechanize ebuild.
+Add the script path to /etc/conf.d/local.start
+
+-Instructions for Ubuntu Linux:
+Install the libwww-mechanize-perl package.
+Add the script path to /etc/rc.local
+
+send me comments by github:
+http://github.com/inbox/new -> el-Salmon
